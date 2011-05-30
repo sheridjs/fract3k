@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: fract3k - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP4001.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/fract3k.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Personal\Fun Stuff\MyProgs\fract3k\fract3k.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP4001.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP4002.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cv.lib highgui.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/fract3k.pdb" /debug /machine:I386 /out:"Debug/fract3k.exe" /pdbtype:sept 
+".\Debug\fract3k.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP4002.TMP"
+<h3>Output Window</h3>
+Compiling...
+fract3k.cpp
+C:\Personal\Fun Stuff\MyProgs\fract3k\fract3k.cpp(97) : warning C4305: '=' : truncation from 'const int' to 'char'
+C:\Personal\Fun Stuff\MyProgs\fract3k\fract3k.cpp(97) : warning C4309: '=' : truncation of constant value
+C:\Personal\Fun Stuff\MyProgs\fract3k\fract3k.cpp(102) : warning C4305: '=' : truncation from 'const int' to 'char'
+C:\Personal\Fun Stuff\MyProgs\fract3k\fract3k.cpp(102) : warning C4309: '=' : truncation of constant value
+C:\Personal\Fun Stuff\MyProgs\fract3k\fract3k.cpp(103) : warning C4305: '=' : truncation from 'const int' to 'char'
+C:\Personal\Fun Stuff\MyProgs\fract3k\fract3k.cpp(103) : warning C4309: '=' : truncation of constant value
+C:\Personal\Fun Stuff\MyProgs\fract3k\fract3k.cpp(104) : warning C4305: '=' : truncation from 'const int' to 'char'
+C:\Personal\Fun Stuff\MyProgs\fract3k\fract3k.cpp(104) : warning C4309: '=' : truncation of constant value
+Linking...
+
+
+
+<h3>Results</h3>
+fract3k.exe - 0 error(s), 8 warning(s)
+</pre>
+</body>
+</html>
